@@ -318,11 +318,30 @@ h1, h2, h3 {
 }
 .skills li { padding: 4px 0; font-weight: 500; }
 
+.skills-spoken {
+  margin-top: 36px; padding: 18px 22px; border-radius: var(--radius-sm);
+  background: var(--surface); border: 1px solid var(--line);
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  font-size: 0.92rem;
+}
+.skills-spoken__label {
+  font-family: var(--font-mono); font-size: 0.78rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent);
+  margin-right: 4px;
+}
+.skills-spoken__item { font-weight: 500; color: var(--ink); }
+.skills-spoken__item small { color: var(--muted); font-weight: 400; font-family: var(--font-mono); font-size: 0.8rem; }
+.skills-spoken__sep { color: var(--line); }
+
 /* ---------- Education ---------- */
+.edu-grid { display: grid; gap: 20px; }
 .edu { display: flex; justify-content: space-between; align-items: flex-start; gap: 24px; flex-wrap: wrap; }
-.edu h3 { font-size: 1.3rem; margin-bottom: 4px; }
+.edu h3 { font-size: 1.25rem; margin-bottom: 4px; }
 .edu p { color: var(--muted); }
-.edu__date { font-family: var(--font-mono); font-size: 0.85rem; color: var(--muted); }
+.edu__sub { margin-top: 4px; font-size: 0.92rem; }
+.edu__sub strong { color: var(--ink); font-weight: 600; }
+.edu__subjects { font-size: 0.88rem; color: var(--muted); margin-top: 6px; }
+.edu__date { font-family: var(--font-mono); font-size: 0.85rem; color: var(--muted); white-space: nowrap; }
 
 /* ---------- Contact ---------- */
 .contact { text-align: center; padding: 104px 0 56px; }

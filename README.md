@@ -19,7 +19,7 @@ Then open `http://localhost:8080` in your browser.
 ## Author
 - **Mohammad Rayyan**
 - BCA Student at Christ University, Central Campus, Bangalore
-- Registration: 2641528 (2 BCA A)
-- Email: [mohammad.rayyan@bcah.christuniversity.in](mailto:mohammad.rayyan@bcah.christuniversity.in)
+- Registration: 2641528 (Class: 2 BCA A, 2nd Semester)
+- Email: [mrayyan2328@gmail.com](mailto:mrayyan2328@gmail.com)
 - GitHub: [@rayyan-error](https://github.com/rayyan-error)
 - LinkedIn: [@rayyan-error](https://www.linkedin.com/in/rayyan-error)
